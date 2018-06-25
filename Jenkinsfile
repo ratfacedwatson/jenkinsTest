@@ -1,5 +1,4 @@
 
-#!groovy
 
 branchName = env.BRANCH_NAME
 isPullRequest = branchName.startsWith("PR")
